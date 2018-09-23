@@ -1,0 +1,24 @@
+{
+  "name": "emily",
+  "version": "1.0.0",
+  "description": "Emily is an subscription service to send survey emails to your clinets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anders-akero/Emily.git"
+  },
+  "keywords": [
+    "email",
+    "survery",
+    "subscription"
+  ],
+  "author": "Anders Åkerö",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anders-akero/Emily/issues"
+  },
+  "homepage": "https://github.com/anders-akero/Emily#readme"
+}
