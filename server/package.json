@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Emily is an subscription service to send survey emails to your clinets",
   "main": "index.js",
+  "engines": {
+    "node": "8.9.1",
+    "npm": "6.4.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/anders-akero/Emily/issues"
   },
-  "homepage": "https://github.com/anders-akero/Emily#readme"
+  "homepage": "https://github.com/anders-akero/Emily#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
