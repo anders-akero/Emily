@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({hi: 'there'});
+    res.send({bye: 'buddy'});
 });
 
 // Listen to port that is sent by environment variable called "PORT"
